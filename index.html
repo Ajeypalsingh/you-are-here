@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale" />
+    <meta name="author" content="Ajaypal Singh" />
+    <meta name="description" content="My web page" />
+    <meta name="keywords" content="html, css, web development, seo" />
+
+    <title>Real Estate</title>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/styles/index.css" media="all" />
+    <script src="./assets/scripts/index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>doorTOdoor</h1>
+        <a href="#" class="contact">
+          <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <button class="login">Login</button>
+        </a>
+      </header>
+    </div>
+
+    <main>
+      <div class="herobanner">
+        <div class="container">
+          <div class="content">
+            <p>
+              Get Your orders dilivered <br />
+              anywhere n' anytime
+            </p>
+          </div>
+          <div class="search">
+            <p>
+              It is our privilege to deliver you happiness every single day.
+            </p>
+          </div>
+          <div class="track-shipment">
+            <button class="tracks" id="scroll-down-button">
+              Track Shipments
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="tagline">
+        <p>We deliver all <span class="color">Door to Door</span></p>
+        <h3>Keep relax & feel free</h3>
+      </div>
+
+      <div class="row">
+        <div class="row-header">
+          <p>Our Services</p>
+        </div>
+        <div class="column one"></div>
+        <div class="column two"></div>
+        <div class="column three"></div>
+        <div class="column four"></div>
+      </div>
+      <div class="map" id="section">
+        <p>Track Your Orders here!</p>
+        <button class="track">Track Shipments</button>
+      </div>
+      <div class="container">
+        <div id="map">
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="social-media">
+        <nav>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
